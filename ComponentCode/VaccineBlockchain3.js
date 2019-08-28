@@ -18,7 +18,6 @@ module.exports = {
       const {NameOfHospital} = conversation.properties();
       const {RecalledStatus} = conversation.properties();
 
-// not sure if below is what need instead of above
 // conversation.logger().info("Input parameter values: vaccineType: " + vaccineType + ", NameOfHospital: "+NameOfHospital+", RecalledStatus: "+RecalledStatus);
 
 var args = "["+vaccineType+","+QuantityOfVaccine+","+NameOfHospital+","+RecalledStatus+"]"
