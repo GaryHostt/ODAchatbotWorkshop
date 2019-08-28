@@ -28,3 +28,14 @@ Now take the tar file and upload it as a skill to the chatbot.
 
 The ComponentCode folder contains code that writes inputs to a blockchain, gets a top news headline about vaccines, and the default - helloworld skill. 
 
+Line 31, 
+```
+"args":  ["marblename","red", 123456,"size"]
+```
+
+needs replaced to take the var args on line 23.
+
+```
+var args = "["+vaccineType+","+QuantityOfVaccine+","+NameOfHospital+","+RecalledStatus+"]"
+```
+
