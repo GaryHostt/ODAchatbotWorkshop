@@ -1,7 +1,11 @@
 # DigitalAssistantChatbot_Workshop
 
-[Follow the steps on this link to get started with this workshop](
+[Follow the steps on this link to get started with this workshop on creating a custom skill](
 https://docs.oracle.com/en/cloud/paas/digital-assistant/tutorial-cc-dev/index.html)
+
+[Further information on developing custom skills with node](https://docs.oracle.com/en/cloud/paas/digital-assistant/tutorial-cc-dev/index.html)
+
+[Click here for other chatbot workshops](https://fnimphiu.github.io/OracleTechExchange/)
 
 
 The most important CLI commands to rememeber:
