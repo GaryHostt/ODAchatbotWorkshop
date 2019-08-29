@@ -1,6 +1,5 @@
 var request = require('request');
 'use strict';
-
 module.exports = {
   metadata: () => ({
     name: 'VaccineNews',
@@ -12,15 +11,15 @@ module.exports = {
   }),
   invoke: (conversation, done) => {
       const {inputString} = conversation.properties();
-      const {returnString} = conversation.properties();
-
+      //const {returnString} = conversation.properties();
   console.log('inputString: ', inputString);
         
       request('https://newsapi.org/v2/everything?apiKey=edf162b96b7c4feaad81082c4e685481&language=en&q=vaccines&pagesize=1',
         {method: 'GET'
         }, (error, response, body) => {
-        console.log('response: ', response.statusCode);
-
+          returnString = response;
+        //console.log('response: ', response.statusCode);
+        //console.log(response);
         //reply
         if (response.statusCode == 200 || response.statusCode == 201) {
           conversation.reply(returnString);
@@ -45,7 +44,5 @@ module.exports = {
           done();
         }
     });
-
   }
 };
-
