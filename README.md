@@ -7,6 +7,8 @@ https://docs.oracle.com/en/cloud/paas/digital-assistant/tutorial-cc-dev/index.ht
 
 [Click here for other chatbot workshops](https://fnimphiu.github.io/OracleTechExchange/)
 
+[Thanks to NewsAPI.org for the news](https://newsapi.org/)
+
 
 The most important CLI commands to rememeber:
 
